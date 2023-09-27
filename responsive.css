@@ -9,8 +9,24 @@
   
     }
   
-  .nav h2{
-    border-right:none;
+  .navbar h2 {
+     border:none ;
+    width: auto; 
+
+    color: white;
+  margin-top: 0.5em;
+  /* border-right: 2px solid rgba(255, 255, 255, 0.333); */
+  font-weight: 1000;
+    
+  }
+  .navbar input{
+    width: 30vw;
+    /* margin-left: 2vw; */margin-top: 0.5em;
+    height: 6vh;
+  }
+
+  ::placeholder{
+    font-weight: 800;
   }
     .main{
       width: 120vw;
