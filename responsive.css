@@ -1,0 +1,151 @@
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+
+    .row,
+    .navbar {
+      flex-direction: column;
+      
+  
+    }
+  
+  .nav h2{
+    border-right:none;
+  }
+    .main{
+      width: 120vw;
+      height: auto;
+    }
+  
+  .main2{
+    background-color: rgba(123, 106, 218, 255);
+    padding: 20px;
+    height: 60vh;
+    width: 100%;
+    border-bottom-right-radius: 50vw 90px;
+    background-color: rgb(123, 106, 218, 255);
+    
+  
+  }
+  
+    .fakeimg {
+      width: 105vw;
+      margin-left: 2vw;
+    }
+  
+    .fakeimg button {
+      margin: 8vw 0 0 8vw;
+    }
+  
+    .navbar input {
+      width: 40vw;
+    }
+  
+    ::placeholder {
+      text-align: center;
+      color: white;
+      border: none;
+  
+    }
+  
+    .fakeimg {
+      min-height: 50vh;
+    }
+  
+    .fakeimg h2 {
+      margin: 1.3em 0 0 1.4em;
+      width: 100vw;
+      color: white;
+      line-height: 120%;
+  
+  
+    }
+  
+    .fakeimg p {
+      color: white;
+      margin: 1.3em 0 0 2.5em;
+      font-size: 1rem;
+      width: 80vw;
+      line-height: 120%;
+      font-weight: 500;
+    }
+  
+  
+   
+    .secondsec{
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      justify-content: space-evenly;
+    }
+  
+  .maindiv{
+    margin: 5em 0 0 2em;
+    width: 80vw;
+    height: 70vw;
+  }
+    
+  .maindiv button{
+   width: 45vw;
+  }
+  
+  
+  .round1{
+    width: 25vw;
+    height: 11vh;
+    top:7%;
+    left: 70%;
+  }
+  
+  .round2{
+    width: 23vw;
+    height: 11vh;
+    top:38%;
+    left: 70%;
+  }
+  
+  .round3{
+    width: 23vw;
+    height: 11vh;
+    top:70%;
+    left: 70%;
+  }
+
+  .thirdsec{
+    flex-direction: column;
+  }
+  .question{
+    background-color: rgba(123, 106, 218, 255);
+    height: 75vh;
+    width: 105vw;
+    border-radius: 20px;
+    margin:0 0 0 0.2em;
+    position: relative;
+    
+  }
+
+  .question .q{
+    width: 85vw;
+    margin-left: 0.1em;
+    padding-top: 1.2em;
+  }
+
+  .question .q i{
+    top: 25%;
+    left:88%;
+  }
+
+  .aboutus{
+    width: 110vw;
+    height: 65vh;
+    background-color: rgba(241,240,254,255);
+    margin-top: 0em;
+    border-radius: 10px;
+  }
+
+  .aboutus button{
+    width:40vw;
+  }
+
+
+  }
