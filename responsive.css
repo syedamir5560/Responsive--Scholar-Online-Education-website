@@ -175,7 +175,7 @@
 .courses h2{
     margin-left: 1em;
 }
-.litnav{
+.litnav{  
   margin-left: 0.1em;
   width: 110vw;
   height: 7vh;
@@ -183,5 +183,28 @@
 .litnav a{
   margin-left: 1.1em;
 }
+.coursecards{
+  flex-direction: column;
+}
+
+.card{
+  width:90vw ; 
+  margin-left: 2em;  
+
+}
+.card img{
+  width: 90vw;
+}
+
+
+.prize{
+  width: 15vw;
+  height: 20vw;
+}
+
+.prize h3{
+  margin-left: 0.5em;
+}
+
 
   }
