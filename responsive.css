@@ -171,6 +171,17 @@
   .aboutus button{
     width:40vw;
   }
-
+/* courses section */
+.courses h2{
+    margin-left: 1em;
+}
+.litnav{
+  margin-left: 0.1em;
+  width: 110vw;
+  height: 7vh;
+}
+.litnav a{
+  margin-left: 1.1em;
+}
 
   }
