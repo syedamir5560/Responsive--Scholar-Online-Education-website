@@ -13,9 +13,10 @@ body {
 
 .main {
   
-  min-height: auto;
+  min-height: 500vh;
   background-color: white;
   width:100%;
+  
 }
 
 
@@ -24,29 +25,42 @@ body {
   display: flex;
   background-color: rgba(123, 106, 218, 255);
   align-items: center;
-  justify-content: end;
+  justify-content: start;
   color: white;
+  
+  
 
 }
 
 
 /* Style the navigation bar links */
-.navbar a {
+.navbar #abc{
   color: white;
   padding: 17px 20px;
   text-decoration: none;
   text-align: center;
-  margin-left: 5vw;
+  margin-left: 2vw;
   border-radius: 20px;
+  
 
 
+}
+.navbar #abcd{
+  color: white;
+  padding: 17px 20px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 21vw;
+  border-radius: 20px;
 }
 
 .navbar h2 {
   color: white;
-  margin-left: 0em;
-  margin-top: 0.1em;
+  margin-left: 1em;
+  margin-top: 0.0em;
   width: 8vw;
+  font-size: 1.2rem;
+  font-weight: 600;
   border-right: 2px solid rgba(255, 255, 255, 0.333);
 }
 
@@ -57,17 +71,27 @@ body {
   width: 15vw;
   border: none;
   margin-left: 3vw;
-
+  position: relative;
 
 }
 
 ::placeholder {
   color: rgb(251, 247, 247);
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 550;
   color: #ffff;
-  text-align: center;
+  text-align: start;
+  font-size: 0.8rem;
+  
+  
+}
 
+.navbar i{
+  font-size: 1.2rem;
+  font-weight: 700;
+  position: absolute;
+  left: 25.5%;
+  cursor: pointer;
 }
 
 input:focus::placeholder {
@@ -445,6 +469,31 @@ input:focus::placeholder {
   font-weight: 600;
   cursor: pointer;
   width: 10vw;
+}
+
+/* *********************courses section****************** */
+.litnav{
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-left: 22em;
+  background-color: rgba(241,240,254,255);
+  width: 50vw;
+  border-radius: 50px;
+  color: black;
+  height: 9vh;
+  align-items: center;
+}
+
+.litnav a{
+  margin-left: 3em;
+  text-decoration: none;
+
+}
+
+.courses h2{
+  text-align: center;
+  font-weight: 800;
 }
 
 

@@ -8,6 +8,10 @@
       
   
     }
+
+    .navbar #abcd{
+      margin-left: 0.5em;
+    }
   
   .navbar h2 {
      border:none ;
@@ -21,12 +25,17 @@
   }
   .navbar input{
     width: 30vw;
-    /* margin-left: 2vw; */margin-top: 0.5em;
+    margin-top: 0.5em;
     height: 6vh;
+  }
+
+  .navbar i{
+    display: none;
   }
 
   ::placeholder{
     font-weight: 800;
+    text-align:justify;
   }
     .main{
       width: 120vw;
