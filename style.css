@@ -555,7 +555,73 @@ margin-left: 2em;
 }
 
 
+.count{
+  margin-top: 5em;
+  width:85vw;
+  height:35vh;
+  background-color: rgba(123, 106, 218, 255);
+  border-bottom-right-radius: 150px;
+  border-top-right-radius:150px ;
+  display: flex;
+}
 
+
+.count .c h3 , h5{
+  color: white;
+
+}
+
+
+.count .one h3{
+  margin-top: 3em;
+  margin-left: 5em;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.count .one h5{
+  margin-top: 1em;
+  margin-left: 7.5em;
+}
+
+
+.count .two h3{
+  margin-top: 3em;
+  margin-left: 7em;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.count .two h5{
+  margin-top: 1em;
+  margin-left: 11em; 
+}
+
+
+
+.count .three h3{
+  margin-top: 3em;
+  margin-left: 7em;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.count .three h5{
+  margin-top: 1em;
+  margin-left: 11em; 
+}
+
+.count .four h3{
+  margin-top: 3em;
+  margin-left: 7em;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.count .four h5{
+  margin-top: 1em;
+  margin-left: 11em; 
+}
 
 
 
