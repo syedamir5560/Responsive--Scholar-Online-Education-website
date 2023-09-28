@@ -297,7 +297,7 @@
           margin-left: 4em;
         }
 
-        /* testimoni */
+        /* testimoni **************/
 
         .testimony{
           margin-top: 5em;
@@ -306,12 +306,10 @@
       .testimony .tdiv1{
         height: 50vh;
         width:105vw;
-        background-color: rgb(123, 106, 218, 255);
         margin-left: 0.5em;
         border-radius: 20px;
         
     }
-    
     
     .testimony .tdiv2{
       height: 60vh;
@@ -323,30 +321,23 @@
     }
     
     .testimony .tdiv1 p{
-      color: white;
       margin-top: 2em;
       margin-left: 2em;
     }
     
     .testimony .tdiv1 .tdiv11 img{
-      
           width: 30vw;
-          margin: 2em 0 0 2em;
-          
+          margin: 2em 0 0 2em;  
     }
-    
-    
+  
     .tdiv1 h4{
         margin-left: 11em;
         margin-top: -4.5em;
-        color: white;
     }
     
     .tdiv1 h2{
       margin-left:7em;
-      margin-top: 0.5em;
-      color: white;
-    
+      margin-top: 0.5em;  
     }
     
     
@@ -354,19 +345,16 @@
       color: rgba(123, 106, 218, 255);
       margin-top: 5em;
       margin-left: 2em;
-      
     }
     
     .tdiv2 h1{
       margin-top: 1em;
       margin-left: 0.5em;
-      font-size: 2.5rem;
       font-weight: 600;
     }
     
     .tdiv2 p{
       margin:3em 0 0 1.5em;
-      font-size: 1.2rem;
     }
     
       
