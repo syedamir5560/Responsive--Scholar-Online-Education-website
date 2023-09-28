@@ -212,7 +212,97 @@
 
 /* person cards */
 
+  .personcards{
+    flex-direction: column;
+  }
 
+  .card1{
+    background-color: #fff;
+    width:90vw;
+    border-radius: 20px;
+    background-color: rgb(241,240,254,255);
+    height: 40vh;
+    margin-top: 10em;
+    margin-left: 2em;
+    
+    }
+
+    .card101 img {
+      width: 60vw;
+      border-radius:50%;
+      /* position: absolute; */
+      top: 2%;
+      margin-left: 3.5em;
+
+      }
+
+      .card102 img{
+        width: 60vw;
+        top:28%;
+        margin-left: 3.5em;
+      }
+
+      .card103 img{
+        width: 60vw;
+        top:53%;
+        margin-left: 3.5em;
+      }
+
+      .card104 img{
+        width: 60vw;
+        top:78%;
+        margin-left: 3.5em;
+      }
+
+
+
+
+      .card1 h3{
+        
+        margin-top:.5em ;
+        text-align: start;
+        margin-left: 5.5em; 
+        }
+        
+        .card1 h4{
+        font-size: 1rem;
+        color: rgba(123, 106, 218, 255);
+        margin-left: 8em;
+        margin-top: 10em;
+        }
+        
+        .card103 h3{
+          margin-left:6.7em;
+        }
+        
+        
+        .card1 i{
+          margin-left: 1em;
+          margin-top: 10px;
+        
+          color: rgb(123, 106, 218, 255);
+          font-size:1.3rem ;
+        
+        }
+        
+        .card1 .ri-facebook-circle-fill{
+          margin-left: 5.5em;
+        }
+        
+        .card1 .icon{
+          margin-top: 1em;
+        }
+
+        .card104 h3{
+          margin-left: 4em;
+        }
+
+
+        
+        
+        
+        
+        
 
 
   }
