@@ -842,6 +842,13 @@ margin-top: 7em;
   font-weight: 800;
 }    
 
+.rounddiv i{
+  color: white;
+  background-color: rgba(141, 125, 223, 255);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
      
 
 .offer h4 {
@@ -864,7 +871,9 @@ margin-top: 7em;
 
 .offer i{
   font-size: 2rem;
-  f
+  font-weight: 800;
+  margin-left: 12em;
+  margin-top: 1em;
 }
 
 
