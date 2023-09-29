@@ -13,7 +13,7 @@ body {
 
 .main {
   
-  min-height: 600vh;
+  min-height: 800vh;
   background-color: white;
   width:100%;
   
@@ -769,6 +769,158 @@ margin-top: 7em;
   font-size: 1.2rem;
 }
 
-/* Footer */
+
+/* Contact us us */
+
+
+.contactus{
+  margin-top: 5em;
+  display: flex;
+  position: relative;
+}
+
+.contactus .cdiv1{
+    height: 100vh;
+      width: 55vw;
+      background-color: rgb(241,240,254,255);
+      margin-left:0em;
+      border-top-right-radius: 20%;
+      border-bottom-right-radius: 20%;
+}
+
+.cdiv1 h4{
+  color: rgba(123, 106, 218, 255);
+  margin-top: 4em;
+  margin-left: 3em;
+  
+}
+
+.cdiv1 h1{
+  margin-top: 0.5em;
+  margin-left: 1.1em;
+  font-size: 2.3rem;
+  font-weight: 600;
+  width: 30vw;
+}
+
+.cdiv1 p{
+  margin:3em 0 0 2.5em;
+  font-size: 1.1rem;
+  width: 40vw;
+}
+
+.cdiv1 .offer{
+  height: 18vh;
+  width: 32vw;
+  background-color: white;
+  border-radius:10px;
+  margin-top: 5em;
+  margin-left: 2em;
+}
+
+.cdiv1 .offer .rounddiv{
+  height: fit-content;
+  width: 4em;
+  height: 6.6em;
+  background-color: rgba(123, 106, 218, 255);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  
+}
+
+.cdiv1 .offer .rounddiv h5 , h3{
+  color:white;
+  margin-top: 10px;  
+  margin-left: 5px;
+}    
+
+.cdiv1 .offer .rounddiv h3{
+  color:white;
+  margin-top: 1px;  
+  margin-left:15px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}    
+
+     
+
+.offer h4 {
+  margin-top: -5em;
+  margin-left: 7em;
+}
+.offer h4 span{
+  color: brown;
+}
+
+.offer h3 {
+  margin-top: 1em;
+  margin-left: 6em;
+  color: black;
+}
+
+.offer h3 span{
+  color: rgba(123, 106, 218, 255);
+}
+
+.offer i{
+  font-size: 2rem;
+  f
+}
+
+
+.contactus .cdiv2{
+  height: 80vh;
+  width: 40vw;
+  background-color: rgb(123, 106, 218, 255);
+  margin-left: 40em;
+  border-radius:20px;
+  margin-top: 3.5em;
+  position: absolute;
+  display: block;
+}
+
+.contactus .cdiv2 #name{
+  margin-top: 5em;
+  margin-left: 5em;
+}
+
+.contactus .cdiv2 #email{
+  margin-top: 4em;
+  margin-left: 5em;
+}
+
+.contactus .cdiv2 #message{
+  margin-top: 4em;
+  margin-left: 5em;
+  height: 20vh;
+}
+
+.contactus .cdiv2 button{
+  padding: 0.7em;
+  width: 10vw;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  color: rgba(123, 106, 218, 255);
+  cursor: pointer;
+  margin-top: 3em;
+  margin-left: 5em;
+  
+}
+
+
+.cdiv2 .form{
+  width: 30vw;
+  height: 7vh;
+  border-radius: 20px;
+  background-color: rgba(141, 125, 223, 255);
+  border:none;
+
+}
+
+::placeholder{
+    text-align: center;
+    color: #fff;
+}
 
 
