@@ -206,16 +206,12 @@ input:focus::placeholder {
 
 
 .secondsec{
-
- 
   padding: 20px;
   height: 85vh;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  
-
 }
 
 
@@ -232,7 +228,7 @@ input:focus::placeholder {
 .maindiv h3 , p{
   margin:2em 0 0 1.5em;
   line-height:30px;
- 
+  color: black;
 }
 
 .maindiv p{

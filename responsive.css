@@ -107,7 +107,9 @@
     margin: 5em 0 0 2em;
     width: 80vw;
     height: 70vw;
+    
   }
+
     
   .maindiv button{
    width: 45vw;
@@ -311,7 +313,7 @@
     }
     
     .testimony .tdiv2{
-      height: 60vh;
+        height: 70vh;
         width: 110vw;
         margin-left:0em;
         border-radius:0;
