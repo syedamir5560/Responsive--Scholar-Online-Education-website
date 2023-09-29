@@ -1,19 +1,18 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
 }
 
-html,
-body {
+html,body {
   height: 100%;
   width: 100%;
 }
 
 .main {
   
-  min-height: 800vh;
+  min-height: auto;
   background-color: white;
   width:100%;
   
@@ -661,6 +660,7 @@ font-size: 1.2rem;
 margin-top:0.5em ;
 text-align: start;
 margin-left: 3.5em; 
+color: black;
 }
 
 .card1 h4{
@@ -672,6 +672,7 @@ margin-top: 7em;
 
 .card103 h3{
   margin-left:5.1em;
+  color: black;
 }
 
 
@@ -930,6 +931,27 @@ margin-top: 7em;
 ::placeholder{
     text-align: center;
     color: #fff;
+}
+
+/* Footer */
+
+.footer{
+  width:98vw;
+  height: 20vh;
+  background-color: rgba(123, 106, 218, 255);
+  border-top-right-radius:150px ;
+  border-top-left-radius: 150px;
+  margin-left: 0em;
+  margin-top: 5em;
+  display: flex;
+  align-items: center;
+  
+}
+
+.footer h5{
+  font-size: 1rem;
+  width: 50em;
+  margin-left: 26em; 
 }
 
 

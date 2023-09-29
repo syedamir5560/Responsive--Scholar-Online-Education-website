@@ -382,9 +382,7 @@
         }
         
         .cdiv1 .offer .rounddiv{
-        
           height:8.6em;
-        
         }
           
         .cdiv1 .offer .rounddiv h3{
@@ -424,7 +422,6 @@
           margin-top: 1em;
         }
         
-        
         .contactus .cdiv2{
           height: 75vh;
           width: 110vw;
@@ -432,16 +429,30 @@
           margin-top: 38em;
         }
         
-        
         .contactus .cdiv2 button{
           width: 40vw;
         }
         
-        
         .cdiv2 .form{
           width: 80vw;
           height: 7vh;
-
         }
       
+        /* Footer */
+
+      .footer{
+        width:110vw;
+        height: 10vh;
+        background-color: rgba(123, 106, 218, 255);
+        margin-top: 40em;
+      }
+
+      .footer h5{
+        font-size: 0.8rem;
+        width: 30em;
+        margin-left: 1em; 
+        margin-top: 2em;
+      }
+
+
   }
