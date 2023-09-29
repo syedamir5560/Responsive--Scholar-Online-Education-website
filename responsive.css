@@ -322,28 +322,21 @@
     .testimony .tdiv1 p{
       margin-top: 2em;
       margin-left: 2em;
-    }
+    } 
     
-    .testimony .tdiv1 .tdiv11 img{
+     .testimony .tdiv1 .tdiv11 img{
           width: 30vw;
           margin: 2em 0 0 2em;  
-    }
+    } 
   
-    .tdiv1 h4{
+     .tdiv1 h4{
         margin-left: 11em;
         margin-top: -4.5em;
-    }
+    } 
     
     .tdiv1 h2{
       margin-left:7em;
       margin-top: 0.5em;  
-    }
-    
-    
-    .tdiv2 h4{
-      color: rgba(123, 106, 218, 255);
-      margin-top: 5em;
-      margin-left: 2em;
     }
     
     .tdiv2 h1{
@@ -356,12 +349,99 @@
       margin:3em 0 0 1.5em;
     }
     
+      /* Contact us */
+        
+        .contactus .cdiv1{
+            height: 80vh;
+              width: 300vw;
+              margin-left:0em;
+              border-radius: 0%;
+              border-radius: 20px;
+        }
+        
+        
+        .cdiv1 h1{
+          margin-top: 0.5em;
+          margin-left: 1.1em;
+          font-size: 2.3rem;
+          font-weight: 600;
+          width: 100vw;
+        }
+        
+        .cdiv1 p{
+          margin:3em 0 0 2.5em;
+          font-size: 1.1rem;
+          width: 100vw;
+        }
+        
+        .cdiv1 .offer{
+          height: 18vh;
+          width: 90vw;
+          margin-top: 3em;
+          margin-left: 2em; 
+        }
+        
+        .cdiv1 .offer .rounddiv{
+        
+          height:8.6em;
+        
+        }
+          
+        .cdiv1 .offer .rounddiv h3{
+          color:white;
+          margin-top: 3px;  
+          margin-left:15px;
+          font-size: 1.5rem;
+          font-weight: 800;
+        }    
+        
+        .rounddiv i{
+          display: none;
+        }
+        
+        .offer h4 {
+          margin-top: -6em;
+          margin-left: 5em;
+        }
+        .offer h4 span{
+          color: brown;
+        }
+        
+        .offer h3 {
+          margin-top: 1em;
+          margin-left: 4.5em;
+          color: black;
+        }
+        
+        .offer h3 span{
+          color: rgba(123, 106, 218, 255);
+        }
+        
+        .offer i{
+          font-size: 2rem;
+          font-weight: 800;
+          margin-left: 12em;
+          margin-top: 1em;
+        }
+        
+        
+        .contactus .cdiv2{
+          height: 75vh;
+          width: 110vw;
+          margin-left:0em;
+          margin-top: 38em;
+        }
+        
+        
+        .contactus .cdiv2 button{
+          width: 40vw;
+        }
+        
+        
+        .cdiv2 .form{
+          width: 80vw;
+          height: 7vh;
+
+        }
       
-        
-        
-        
-        
-        
-
-
   }
