@@ -1,460 +1,474 @@
-
 /* Responsive layout - when the screen is less than 550x wide.*/
 
 @media screen and (max-width:550px) {
 
-    .navbar {
-      flex-direction: column;
-      
-    }
 
-    .navbar #abcd{
-      margin-left: 0.5em;
-    }
-  
+
+
+  .main {
+    width: 120vw;
+    height: auto;
+  }
+
+  /* ******************* nav baav ********************** */
+
+  .navbar {
+    flex-direction: column;
+
+  }
+
+  .navbar #abcd {
+    margin-left: 0.5em;
+  }
+
   .navbar h2 {
-     border:none ;
-    width: auto; 
+    border: none;
+    width: auto;
 
     color: white;
-  margin-top: 0.5em;
-  /* border-right: 2px solid rgba(255, 255, 255, 0.333); */
-  font-weight: 1000;
-    
+    margin-top: 0.5em;
+    /* border-right: 2px solid rgba(255, 255, 255, 0.333); */
+    font-weight: 1000;
+
   }
-  .navbar input{
+
+  .navbar input {
     width: 30vw;
     margin-top: 0.5em;
     height: 6vh;
   }
 
-  .navbar i{
+  .navbar i {
     display: none;
   }
 
-  ::placeholder{
+  ::placeholder {
     font-weight: 800;
-    text-align:justify;
+    text-align: justify;
   }
-    .main{
-      width: 120vw;
-      height: auto;
-    }
-  
-  .main2{
+
+/* Main 2 section */
+
+  .main2 {
     background-color: rgba(123, 106, 218, 255);
     padding: 20px;
     height: 60vh;
     width: 100%;
     border-bottom-right-radius: 50vw 90px;
     background-color: rgb(123, 106, 218, 255);
-    
-  
+
+
   }
-  
-    .fakeimg {
-      width: 105vw;
-      margin-left: 2vw;
-    }
-  
-    .fakeimg button {
-      margin: 8vw 0 0 8vw;
-    }
-  
-    .navbar input {
-      width: 40vw;
-    }
-  
-    ::placeholder {
-      text-align: center;
-      color: white;
-      border: none;
-  
-    }
-  
-    .fakeimg {
-      min-height: 50vh;
-    }
-  
-    .fakeimg h2 {
-      margin: 1.3em 0 0 1.4em;
-      width: 100vw;
-      color: white;
-      line-height: 120%;
-  
-  
-    }
-  
-    .fakeimg p {
-      color: white;
-      margin: 1.3em 0 0 2.5em;
-      font-size: 1rem;
-      width: 80vw;
-      line-height: 120%;
-      font-weight: 500;
-    }
-  
-  
-   
-    .secondsec{
-      flex-direction: column;
-      height: auto;
-      width: 100%;
-      justify-content: space-evenly;
-    }
-  
-  .maindiv{
+
+  .fakeimg {
+    width: 105vw;
+    margin-left: 2vw;
+  }
+
+  .fakeimg button {
+    margin: 8vw 0 0 8vw;
+  }
+
+  .navbar input {
+    width: 40vw;
+  }
+
+  ::placeholder {
+    text-align: center;
+    color: white;
+    border: none;
+
+  }
+
+  .fakeimg {
+    min-height: 50vh;
+  }
+
+  .fakeimg h2 {
+    margin: 1.3em 0 0 1.4em;
+    width: 100vw;
+    color: white;
+    line-height: 120%;
+
+
+  }
+
+  .fakeimg p {
+    color: white;
+    margin: 1.3em 0 0 2.5em;
+    font-size: 1rem;
+    width: 80vw;
+    line-height: 120%;
+    font-weight: 500;
+  }
+
+/****************online degree******** */
+
+  .secondsec {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .maindiv {
     margin: 5em 0 0 2em;
     width: 80vw;
     height: 70vw;
-    
+
   }
 
-    
-  .maindiv button{
-   width: 45vw;
+
+  .maindiv button {
+    width: 45vw;
   }
-  
-  
-  .round1{
+
+
+  .round1 {
     width: 25vw;
     height: 11vh;
-    top:7%;
-    left: 70%;
-  }
-  
-  .round2{
-    width: 23vw;
-    height: 11vh;
-    top:38%;
-    left: 70%;
-  }
-  
-  .round3{
-    width: 23vw;
-    height: 11vh;
-    top:70%;
+    top: 7%;
     left: 70%;
   }
 
-  .thirdsec{
+  .round2 {
+    width: 23vw;
+    height: 11vh;
+    top: 38%;
+    left: 70%;
+  }
+
+  .round3 {
+    width: 23vw;
+    height: 11vh;
+    top: 70%;
+    left: 70%;
+  }
+
+/* *******************Question and About us***************** */
+
+  .thirdsec {
     flex-direction: column;
   }
-  .question{
+
+  .question {
     background-color: rgba(123, 106, 218, 255);
     height: 75vh;
     width: 105vw;
     border-radius: 20px;
-    margin:0 0 0 0.2em;
+    margin: 0 0 0 0.2em;
     position: relative;
-    
+
   }
 
-  .question .q{
+  .question .q {
     width: 85vw;
     margin-left: 0.1em;
     padding-top: 1.2em;
   }
 
-  .question .q i{
+  .question .q i {
     top: 25%;
-    left:88%;
+    left: 88%;
   }
 
-  .aboutus{
+  .aboutus {
     width: 110vw;
     height: 65vh;
-    background-color: rgba(241,240,254,255);
+    background-color: rgba(241, 240, 254, 255);
     margin-top: 0em;
     border-radius: 10px;
   }
 
-  .aboutus button{
-    width:40vw;
+  .aboutus button {
+    width: 40vw;
   }
-/* courses section */
-.courses h2{
+
+  /******************* courses section ****************/
+  .courses h2 {
     margin-left: 1em;
-}
-.litnav{  
-  margin-left: 0.1em;
-  width: 110vw;
-  height: 7vh;
-}
-.litnav a{
-  margin-left: 1.1em;
-}
-.coursecards{
-  flex-direction: column;
-}
+  }
 
-.card{
-  width:90vw ; 
-  margin-left: 2em;  
+  .litnav {
+    margin-left: 0.1em;
+    width: 110vw;
+    height: 7vh;
+  }
 
-}
-.card img{
-  width: 90vw;
-}
+  .litnav a {
+    margin-left: 1.1em;
+  }
 
-
-.prize{
-  width: 15vw;
-  height: 20vw;
-}
-
-.prize h3{
-  margin-left: 0.5em;
-}
-
-.count{
-  display: none;
-}
-
-/* person cards */
-
-  .personcards{
+  .coursecards {
     flex-direction: column;
   }
 
-  .card1{
+  .card {
+    width: 90vw;
+    margin-left: 2em;
+
+  }
+
+  .card img {
+    width: 90vw;
+  }
+
+
+  .prize {
+    width: 15vw;
+    height: 20vw;
+  }
+
+  .prize h3 {
+    margin-left: 0.5em;
+  }
+
+  .count {
+    display: none;
+  }
+
+  /* *******************person cards **************/
+
+  .personcards {
+    flex-direction: column;
+  }
+
+  .card1 {
     background-color: #fff;
-    width:90vw;
+    width: 90vw;
     border-radius: 20px;
-    background-color: rgb(241,240,254,255);
+    background-color: rgb(241, 240, 254, 255);
     height: 40vh;
     margin-top: 10em;
     margin-left: 2em;
-    
-    }
-
-    .card101 img {
-      width: 60vw;
-      border-radius:50%;
-      /* position: absolute; */
-      top: 2%;
-      margin-left: 3.5em;
-
-      }
-
-      .card102 img{
-        width: 60vw;
-        top:28%;
-        margin-left: 3.5em;
-      }
-
-      .card103 img{
-        width: 60vw;
-        top:53%;
-        margin-left: 3.5em;
-      }
-
-      .card104 img{
-        width: 60vw;
-        top:78%;
-        margin-left: 3.5em;
-      }
-
-
-
-
-      .card1 h3{
-        
-        margin-top:.5em ;
-        text-align: start;
-        margin-left: 5.5em; 
-        }
-        
-        .card1 h4{
-        font-size: 1rem;
-        color: rgba(123, 106, 218, 255);
-        margin-left: 8em;
-        margin-top: 10em;
-        }
-        
-        .card103 h3{
-          margin-left:6.7em;
-        }
-        
-        
-        .card1 i{
-          margin-left: 1em;
-          margin-top: 10px;
-        
-          color: rgb(123, 106, 218, 255);
-          font-size:1.3rem ;
-        
-        }
-        
-        .card1 .ri-facebook-circle-fill{
-          margin-left: 5.5em;
-        }
-        
-        .card1 .icon{
-          margin-top: 1em;
-        }
-
-        .card104 h3{
-          margin-left: 4em;
-        }
-
-        /* testimoni **************/
-
-        .testimony{
-          margin-top: 5em;
-      }
-
-      .testimony .tdiv1{
-        height: 50vh;
-        width:105vw;
-        margin-left: 0.5em;
-        border-radius: 20px;
-        
-    }
-    
-    .testimony .tdiv2{
-        height: 70vh;
-        width: 110vw;
-        margin-left:0em;
-        border-radius:0;
-        margin-top: 25em;
-        border-radius: 50px;
-    }
-    
-    .testimony .tdiv1 p{
-      margin-top: 2em;
-      margin-left: 2em;
-    } 
-    
-     .testimony .tdiv1 .tdiv11 img{
-          width: 30vw;
-          margin: 2em 0 0 2em;  
-    } 
-  
-     .tdiv1 h4{
-        margin-left: 11em;
-        margin-top: -4.5em;
-    } 
-    
-    .tdiv1 h2{
-      margin-left:7em;
-      margin-top: 0.5em;  
-    }
-    
-    .tdiv2 h1{
-      margin-top: 1em;
-      margin-left: 0.5em;
-      font-weight: 600;
-    }
-    
-    .tdiv2 p{
-      margin:3em 0 0 1.5em;
-    }
-    
-      /* Contact us */
-        
-        .contactus .cdiv1{
-            height: 80vh;
-              width: 300vw;
-              margin-left:0em;
-              border-radius: 0%;
-              border-radius: 20px;
-        }
-        
-        
-        .cdiv1 h1{
-          margin-top: 0.5em;
-          margin-left: 1.1em;
-          font-size: 2.3rem;
-          font-weight: 600;
-          width: 100vw;
-        }
-        
-        .cdiv1 p{
-          margin:3em 0 0 2.5em;
-          font-size: 1.1rem;
-          width: 100vw;
-        }
-        
-        .cdiv1 .offer{
-          height: 18vh;
-          width: 90vw;
-          margin-top: 3em;
-          margin-left: 2em; 
-        }
-        
-        .cdiv1 .offer .rounddiv{
-          height:8.6em;
-        }
-          
-        .cdiv1 .offer .rounddiv h3{
-          color:white;
-          margin-top: 3px;  
-          margin-left:15px;
-          font-size: 1.5rem;
-          font-weight: 800;
-        }    
-        
-        .rounddiv i{
-          display: none;
-        }
-        
-        .offer h4 {
-          margin-top: -6em;
-          margin-left: 5em;
-        }
-        .offer h4 span{
-          color: brown;
-        }
-        
-        .offer h3 {
-          margin-top: 1em;
-          margin-left: 4.5em;
-          color: black;
-        }
-        
-        .offer h3 span{
-          color: rgba(123, 106, 218, 255);
-        }
-        
-        .offer i{
-          font-size: 2rem;
-          font-weight: 800;
-          margin-left: 12em;
-          margin-top: 1em;
-        }
-        
-        .contactus .cdiv2{
-          height: 75vh;
-          width: 110vw;
-          margin-left:0em;
-          margin-top: 38em;
-        }
-        
-        .contactus .cdiv2 button{
-          width: 40vw;
-        }
-        
-        .cdiv2 .form{
-          width: 80vw;
-          height: 7vh;
-        }
-      
-        /* Footer */
-
-      .footer{
-        width:110vw;
-        height: 10vh;
-        background-color: rgba(123, 106, 218, 255);
-        margin-top: 40em;
-      }
-
-      .footer h5{
-        font-size: 0.8rem;
-        width: 30em;
-        margin-left: 1em; 
-        margin-top: 2em;
-      }
-
 
   }
+
+  .card101 img {
+    width: 60vw;
+    border-radius: 50%;
+    /* position: absolute; */
+    top: 2%;
+    margin-left: 3.5em;
+
+  }
+
+  .card102 img {
+    width: 60vw;
+    top: 28%;
+    margin-left: 3.5em;
+  }
+
+  .card103 img {
+    width: 60vw;
+    top: 53%;
+    margin-left: 3.5em;
+  }
+
+  .card104 img {
+    width: 60vw;
+    top: 78%;
+    margin-left: 3.5em;
+  }
+
+  .card1 h3 {
+
+    margin-top: .5em;
+    text-align: start;
+    margin-left: 5.5em;
+  }
+
+  .card1 h4 {
+    font-size: 1rem;
+    color: rgba(123, 106, 218, 255);
+    margin-left: 8em;
+    margin-top: 10em;
+  }
+
+  .card103 h3 {
+    margin-left: 6.7em;
+  }
+
+
+  .card1 i {
+    margin-left: 1em;
+    margin-top: 10px;
+
+    color: rgb(123, 106, 218, 255);
+    font-size: 1.3rem;
+
+  }
+
+  .card1 .ri-facebook-circle-fill {
+    margin-left: 5.5em;
+  }
+
+  .card1 .icon {
+    margin-top: 1em;
+  }
+
+  .card104 h3 {
+    margin-left: 4em;
+  }
+
+  /************************ testimoni **************/
+
+  .testimony {
+    margin-top: 5em;
+  }
+
+  .testimony .tdiv1 {
+    height: 50vh;
+    width: 105vw;
+    margin-left: 0.5em;
+    border-radius: 20px;
+
+  }
+
+  .testimony .tdiv2 {
+    height: 70vh;
+    width: 110vw;
+    margin-left: 0em;
+    border-radius: 0;
+    margin-top: 25em;
+    border-radius: 50px;
+  }
+
+  .testimony .tdiv1 p {
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+
+  .testimony .tdiv1 .tdiv11 img {
+    width: 30vw;
+    margin: 2em 0 0 2em;
+  }
+
+  .tdiv1 h4 {
+    margin-left: 11em;
+    margin-top: -4.5em;
+  }
+
+  .tdiv1 h2 {
+    margin-left: 7em;
+    margin-top: 0.5em;
+  }
+
+  .tdiv2 h1 {
+    margin-top: 1em;
+    margin-left: 0.5em;
+    font-weight: 600;
+  }
+
+  .tdiv2 p {
+    margin: 3em 0 0 1.5em;
+  }
+
+  /* *********************Contact us *******************/
+
+  .contactus .cdiv1 {
+    height: 80vh;
+    width: 300vw;
+    margin-left: 0em;
+    border-radius: 0%;
+    border-radius: 20px;
+  }
+
+
+  .cdiv1 h1 {
+    margin-top: 0.5em;
+    margin-left: 1.1em;
+    font-size: 2.3rem;
+    font-weight: 600;
+    width: 100vw;
+  }
+
+  .cdiv1 p {
+    margin: 3em 0 0 2.5em;
+    font-size: 1.1rem;
+    width: 100vw;
+  }
+
+  .cdiv1 .offer {
+    height: 18vh;
+    width: 90vw;
+    margin-top: 3em;
+    margin-left: 2em;
+  }
+
+  .cdiv1 .offer .rounddiv {
+    height: 8.6em;
+  }
+
+  .cdiv1 .offer .rounddiv h3 {
+    color: white;
+    margin-top: 3px;
+    margin-left: 15px;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .rounddiv i {
+    display: none;
+  }
+
+  .offer h4 {
+    margin-top: -6em;
+    margin-left: 5em;
+  }
+
+  .offer h4 span {
+    color: brown;
+  }
+
+  .offer h3 {
+    margin-top: 1em;
+    margin-left: 4.5em;
+    color: black;
+  }
+
+  .offer h3 span {
+    color: rgba(123, 106, 218, 255);
+  }
+
+  .offer i {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 12em;
+    margin-top: 1em;
+  }
+
+  .contactus .cdiv2 {
+    height: 75vh;
+    width: 110vw;
+    margin-left: 0em;
+    margin-top: 38em;
+  }
+
+  .contactus .cdiv2 button {
+    width: 40vw;
+  }
+
+  .cdiv2 .form {
+    width: 80vw;
+    height: 7vh;
+  }
+
+  /********************* Footer *********************/
+
+  .footer {
+    width: 110vw;
+    height: 10vh;
+    background-color: rgba(123, 106, 218, 255);
+    margin-top: 40em;
+  }
+
+  .footer h5 {
+    font-size: 0.8rem;
+    width: 30em;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+
+
+}
