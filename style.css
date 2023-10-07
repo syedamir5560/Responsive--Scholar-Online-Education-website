@@ -32,24 +32,17 @@ html,body {
 
 
 /* Style the navigation bar links */
-.navbar #abc{
+.navbar .abc{
   color: white;
   padding: 17px 20px;
   text-decoration: none;
   text-align: center;
   margin-left: 2vw;
   border-radius: 20px;
-  
-
-
 }
+
 .navbar #abcd{
-  color: white;
-  padding: 17px 20px;
-  text-decoration: none;
-  text-align: center;
   margin-left: 21vw;
-  border-radius: 20px;
 }
 
 .navbar h2 {
@@ -103,15 +96,8 @@ input:focus::placeholder {
 
 }
 
-/* Column container */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
+/* main2 */
 
-
-
-/* Main column */
 .main2 {
   flex: 70%;
   background-color: rgba(123, 106, 218, 255);
@@ -122,7 +108,6 @@ input:focus::placeholder {
 
 }
 
-/* Fake image, just for this example */
 .fakeimg {
   background-color: #aaa;
   width: 65%;
@@ -204,6 +189,9 @@ input:focus::placeholder {
 
 }
 
+/* 
+      <!-- online degree -->
+ */
 
 .secondsec{
   padding: 20px;
@@ -309,6 +297,8 @@ input:focus::placeholder {
   background-position: center;
   background-size: cover;
 }
+
+/* question and about us */
 
 .question{
   background-color: rgba(123, 106, 218, 255);
@@ -491,7 +481,7 @@ input:focus::placeholder {
 }
 
 
-/* course cards */
+/* ***********course cards************* */
 
 .coursecards{
   display: flex;
@@ -549,6 +539,8 @@ margin-left: 2em;
 
 }
 
+
+/* happy student / course hourse / year exprience section***** */
 
 .count{
   margin-top: 5em;
@@ -618,7 +610,7 @@ margin-left: 2em;
   margin-left: 11em; 
 }
 
-/* person cards */
+/************** person cards ***************/
 
 .personcards{
   display: flex;
@@ -689,7 +681,7 @@ margin-top: 7em;
   margin-top: 1em;
 }
 
-/* testimony section  */
+/********************** testimony section*********************  */
 
 .testimony{
     margin-top: 9em;
@@ -767,7 +759,7 @@ margin-top: 7em;
 }
 
 
-/* Contact us us */
+/* *********************Contact us us ***********************/
 
 
 .contactus{
@@ -929,7 +921,7 @@ margin-top: 7em;
     color: #fff;
 }
 
-/* Footer */
+/* **************************Footer *********************/
 
 .footer{
   width:98vw;
