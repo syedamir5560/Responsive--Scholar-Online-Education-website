@@ -1,10 +1,6 @@
 /* Responsive layout - when the screen is less than 550x wide.*/
 
 @media screen and (max-width:550px) {
-
-
-
-
   .main {
     width: 120vw;
     height: auto;
